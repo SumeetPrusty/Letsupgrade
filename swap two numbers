@@ -1,0 +1,15 @@
+import java.util.*;
+class swapping{
+   public static void main(String[] args){
+      int x,y,a;
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter two numbers");
+      x=sc.nextInt();
+      y=sc.nextInt();
+      a=x;
+      x=y;
+      y=a;
+      System.out.println("After swapping:"+x +"   " + y);
+      System.out.println();
+   }
+}   
